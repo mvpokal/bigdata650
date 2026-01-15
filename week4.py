@@ -1,5 +1,3 @@
-4. The Updated week4.py
-
 from pyspark.sql import SparkSession
 import random
 
