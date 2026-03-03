@@ -4,7 +4,7 @@ from pyspark.ml.regression import LinearRegression
 import happybase
 
 # Spark session
-spark = SparkSession.builder.appName("CarPriceML").enableHiveSupport().getOrCreate()
+spark = SparkSession.builder.appName("CarPricesML").enableHiveSupport().getOrCreate()
 
 # Load data from Hive
 df = spark.sql("""
